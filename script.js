@@ -4,9 +4,17 @@ alert ("Ele é limitado ao clique no ok pelo usuário")
 
 alert ("Não é possivel configurar seu tempo de permanência na tela")
 
-let numero = 25;
 let chute;
 let idade;
 let nome;
 
 console.log (numero);
+
+let entrada = prompt("Digite um número inteiro:");
+let numero = parselnt(entrada);
+
+if (Number.isInteger(numero)){
+  console.log("Obrigado" Você digitou um inteiro.");
+}else{
+  console.log("Por favor, digite um número inteiro válido.");
+}
