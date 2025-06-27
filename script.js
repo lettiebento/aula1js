@@ -1,5 +1,4 @@
-alert('Seja bem-vindo ao nosso jogo!');
-alert('Vamos ao calculo de média!');
+alert('Seja bem-vindo ao calculo de média!');
 
 let tamanho;
 let nota;
