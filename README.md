@@ -1,8 +1,8 @@
 # Cálculo de Média — Atividade 01 de JavaScript
 
 
-** Disciplina:** Programação Web Front-End  
-** Curso:** Engenharia de Software - UTFPR  
+Disciplina: Programação Web Front-End  
+Curso: Engenharia de Software - UTFPR  
 
 ---
 
