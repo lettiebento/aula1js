@@ -1,6 +1,6 @@
 alert('Seja bem-vindo ao nosso jogo!');
 
-// Variável para armazenar o chute do usuário
+// Variável para armazenar o chute do usuári
 let chute;
 let tentativas = 0; // Inicia o contador de tentativas
 
