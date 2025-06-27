@@ -1,20 +1,18 @@
-alert ("Comando para mostrar um texto na tela, posso usar aspas duplas ou aspas simples, mas siga este padrão em todo código")
+alert('Seja bem-vindo ao nosso jogo!');
 
-alert ("Ele é limitado ao clique no ok pelo usuário")
-
-alert ("Não é possivel configurar seu tempo de permanência na tela")
-
+// Variável para armazenar o chute do usuário
 let chute;
-let idade;
-let nome;
+let tentativas = 0; // Inicia o contador de tentativas
 
-console.log (numero);
+while (chute != numeroSecreto) {
+  chute = parseInt(prompt('Escolha um número entre 1 e 10'));
+  tentativas++; // Soma +1 a cada tentativa
 
-let entrada = prompt("Digite um número inteiro:");
-let numero = parselnt(entrada);
-
-if (Number.isInteger(numero)){
-  console.log("Obrigado" Você digitou um inteiro.");
-}else{
-  console.log("Por favor, digite um número inteiro válido.");
+  if (chute == numeroSecreto) {
+    alert(`Parabéns! Você acertou o número secreto ${numeroSecreto} na tentativa ${tentativas}.`);
+  } else if (chute > numeroSecreto) {
+    alert(`O número secreto é menor que ${chute}. Tente novamente.`);
+  } else {
+    alert(`O número secreto é maior que ${chute}. Tente novamente.`);
+  }
 }
