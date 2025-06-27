@@ -1,1 +1,15 @@
+corpo {
+  cor de fundo: #f8f8f8;
+  exibição: flexível;
+  justificar-conteúdo: centro;
+  alinhar-itens: centro;
+  altura: 100vh;
+  margem: 0;
+}
 
+.container img {
+  largura: 400px;
+  altura: automático;
+  raio da borda: 15px;
+  caixa-sombra: 0 4px 10px rgba(0,0,0,0.2);
+}
